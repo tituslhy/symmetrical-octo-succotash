@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "n_records": 20,
+  "n_type1": 14,
+  "n_type2": 6,
+  "record_ids": [
+    "Single_CDNS/2012/page_30.pdf-2",
+    "Single_TSCO/2018/page_34.pdf-2",
+    "Single_ETR/2013/page_118.pdf-4",
+    "Double_ETR/2004/page_213.pdf",
+    "Double_IPG/2008/page_62.pdf",
+    "Double_PNC/2013/page_207.pdf",
+    "Single_ETR/2003/page_84.pdf-2",
+    "Single_BLL/2007/page_47.pdf-1",
+    "Single_NWS/2016/page_61.pdf-1",
+    "Single_CDNS/2006/page_30.pdf-3",
+    "Single_ETR/2003/page_84.pdf-1",
+    "Single_APD/2019/page_31.pdf-2",
+    "Single_RSG/2017/page_142.pdf-1",
+    "Double_AMT/2004/page_81.pdf",
+    "Single_ETR/2017/page_316.pdf-1",
+    "Single_CME/2017/page_97.pdf-4",
+    "Double_RSG/2009/page_100.pdf",
+    "Single_PNC/2018/page_171.pdf-2",
+    "Single_L/2015/page_59.pdf-1",
+    "Double_PM/2017/page_38.pdf"
+  ],
+  "gold": {
+    "exe_acc": 0.8823529411764706,
+    "conv_acc": 0.6666666666666666,
+    "parse_error_rate": 0.0,
+    "total_turns": 51,
+    "total_conversations": 15,
+    "acc_by_turn_position": {
+      "0": 0.9333333333333333,
+      "1": 0.9333333333333333,
+      "2": 0.7777777777777778,
+      "3": 1.0,
+      "4": 0.6666666666666666,
+      "5": 0.5,
+      "6": 1.0
+    }
+  },
+  "free": {
+    "exe_acc": 0.7833333333333333,
+    "conv_acc": 0.5882352941176471,
+    "parse_error_rate": 0.0,
+    "total_turns": 60,
+    "total_conversations": 17,
+    "acc_by_turn_position": {
+      "0": 0.8823529411764706,
+      "1": 0.8823529411764706,
+      "2": 0.7272727272727273,
+      "3": 0.875,
+      "4": 0.5,
+      "5": 0.0,
+      "6": 0.0
+    }
+  },
+  "gap": 0.09901960784313724
+}

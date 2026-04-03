@@ -1,0 +1,70 @@
+2026-03-29 12:34:17,096 - __main__ - INFO - Sample: 20 records (14 type1, 6 type2)
+2026-03-29 12:34:17,096 - __main__ - INFO - Record IDs in sample:
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_CDNS/2012/page_30.pdf-2
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_TSCO/2018/page_34.pdf-2
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_ETR/2013/page_118.pdf-4
+2026-03-29 12:34:17,096 - __main__ - INFO -   Double_ETR/2004/page_213.pdf
+2026-03-29 12:34:17,096 - __main__ - INFO -   Double_IPG/2008/page_62.pdf
+2026-03-29 12:34:17,096 - __main__ - INFO -   Double_PNC/2013/page_207.pdf
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_ETR/2003/page_84.pdf-2
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_BLL/2007/page_47.pdf-1
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_NWS/2016/page_61.pdf-1
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_CDNS/2006/page_30.pdf-3
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_ETR/2003/page_84.pdf-1
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_APD/2019/page_31.pdf-2
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_RSG/2017/page_142.pdf-1
+2026-03-29 12:34:17,096 - __main__ - INFO -   Double_AMT/2004/page_81.pdf
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_ETR/2017/page_316.pdf-1
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_CME/2017/page_97.pdf-4
+2026-03-29 12:34:17,096 - __main__ - INFO -   Double_RSG/2009/page_100.pdf
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_PNC/2018/page_171.pdf-2
+2026-03-29 12:34:17,096 - __main__ - INFO -   Single_L/2015/page_59.pdf-1
+2026-03-29 12:34:17,096 - __main__ - INFO -   Double_PM/2017/page_38.pdf
+2026-03-29 12:34:17,096 - src.logger - INFO - Running 20 records in mode='gold'
+Evaluating [gold]:   0%|          | 0/20 [00:00<?, ?it/s]2026-03-29 12:37:17,710 - src.logger - INFO - Saved 1 results to outputs/results_gold_20.json
+Evaluating [gold]:   5%|▌         | 1/20 [03:00<57:11, 180.61s/it]2026-03-29 12:46:28,986 - src.logger - INFO - Saved 2 results to outputs/results_gold_20.json
+Evaluating [gold]:  10%|█         | 2/20 [12:11<1:59:35, 398.65s/it]2026-03-29 12:51:36,641 - src.logger - INFO - Saved 3 results to outputs/results_gold_20.json
+Evaluating [gold]:  15%|█▌        | 3/20 [17:19<1:41:10, 357.10s/it]2026-03-29 12:52:36,236 - src.logger - INFO - Saved 4 results to outputs/results_gold_20.json
+Evaluating [gold]:  20%|██        | 4/20 [18:19<1:03:54, 239.65s/it]2026-03-29 12:54:41,650 - src.logger - INFO - Saved 5 results to outputs/results_gold_20.json
+Evaluating [gold]:  25%|██▌       | 5/20 [20:24<49:36, 198.45s/it]  2026-03-29 12:55:36,066 - src.logger - INFO - Saved 6 results to outputs/results_gold_20.json
+Evaluating [gold]:  30%|███       | 6/20 [21:18<34:52, 149.48s/it]2026-03-29 12:57:23,457 - src.logger - INFO - Saved 7 results to outputs/results_gold_20.json
+Evaluating [gold]:  35%|███▌      | 7/20 [23:06<29:24, 135.72s/it]2026-03-29 13:28:56,580 - src.logger - WARNING - Failed on record Single_BLL/2007/page_47.pdf-1: Request timed out.
+Evaluating [gold]:  40%|████      | 8/20 [54:39<2:19:02, 695.19s/it]2026-03-29 13:58:57,970 - src.logger - WARNING - Failed on record Single_NWS/2016/page_61.pdf-1: Request timed out.
+Evaluating [gold]:  45%|████▌     | 9/20 [1:24:40<3:10:51, 1041.01s/it]2026-03-29 14:01:20,564 - src.logger - INFO - Saved 8 results to outputs/results_gold_20.json
+Evaluating [gold]:  50%|█████     | 10/20 [1:27:03<2:07:16, 763.65s/it]2026-03-29 14:02:53,936 - src.logger - INFO - Saved 9 results to outputs/results_gold_20.json
+Evaluating [gold]:  55%|█████▌    | 11/20 [1:28:36<1:23:46, 558.51s/it]2026-03-29 14:33:47,824 - src.logger - WARNING - Failed on record Single_APD/2019/page_31.pdf-2: Request timed out.
+Evaluating [gold]:  60%|██████    | 12/20 [1:59:30<2:07:00, 952.58s/it]2026-03-29 14:34:48,913 - src.logger - INFO - Saved 10 results to outputs/results_gold_20.json
+Evaluating [gold]:  65%|██████▌   | 13/20 [2:00:31<1:19:37, 682.51s/it]2026-03-29 15:05:45,072 - src.logger - WARNING - Failed on record Double_AMT/2004/page_81.pdf: Request timed out.
+Evaluating [gold]:  70%|███████   | 14/20 [2:31:27<1:43:42, 1037.01s/it]2026-03-29 15:07:20,811 - src.logger - INFO - Saved 11 results to outputs/results_gold_20.json
+Evaluating [gold]:  75%|███████▌  | 15/20 [2:33:03<1:02:46, 753.28s/it] 2026-03-29 15:09:15,878 - src.logger - INFO - Saved 12 results to outputs/results_gold_20.json
+Evaluating [gold]:  80%|████████  | 16/20 [2:34:58<37:24, 561.18s/it]  2026-03-29 15:40:11,195 - src.logger - WARNING - Failed on record Double_RSG/2009/page_100.pdf: Request timed out.
+Evaluating [gold]:  85%|████████▌ | 17/20 [3:05:54<47:30, 950.33s/it]2026-03-29 15:42:08,482 - src.logger - INFO - Saved 13 results to outputs/results_gold_20.json
+Evaluating [gold]:  90%|█████████ | 18/20 [3:07:51<23:20, 700.01s/it]2026-03-29 15:43:08,960 - src.logger - INFO - Saved 14 results to outputs/results_gold_20.json
+Evaluating [gold]:  95%|█████████▌| 19/20 [3:08:51<08:27, 507.93s/it]2026-03-29 15:47:35,929 - src.logger - INFO - Saved 15 results to outputs/results_gold_20.json
+Evaluating [gold]: 100%|██████████| 20/20 [3:13:18<00:00, 435.58s/it]Evaluating [gold]: 100%|██████████| 20/20 [3:13:18<00:00, 579.94s/it]
+2026-03-29 15:47:35,929 - __main__ - INFO - GOLD  exe_acc=88.24%  conv_acc=66.67%
+2026-03-29 15:47:35,930 - src.logger - INFO - Running 20 records in mode='free'
+Evaluating [free]:   0%|          | 0/20 [00:00<?, ?it/s]2026-03-29 15:50:36,139 - src.logger - INFO - Saved 1 results to outputs/results_free_20.json
+Evaluating [free]:   5%|▌         | 1/20 [03:00<57:03, 180.21s/it]2026-03-29 16:01:49,196 - src.logger - INFO - Saved 2 results to outputs/results_free_20.json
+Evaluating [free]:  10%|█         | 2/20 [14:13<2:21:02, 470.12s/it]2026-03-29 16:06:55,404 - src.logger - INFO - Saved 3 results to outputs/results_free_20.json
+Evaluating [free]:  15%|█▌        | 3/20 [19:19<1:51:59, 395.27s/it]2026-03-29 16:07:58,063 - src.logger - INFO - Saved 4 results to outputs/results_free_20.json
+Evaluating [free]:  20%|██        | 4/20 [20:22<1:10:23, 263.96s/it]2026-03-29 16:10:05,101 - src.logger - INFO - Saved 5 results to outputs/results_free_20.json
+Evaluating [free]:  25%|██▌       | 5/20 [22:29<53:38, 214.59s/it]  2026-03-29 16:10:54,794 - src.logger - INFO - Saved 6 results to outputs/results_free_20.json
+Evaluating [free]:  30%|███       | 6/20 [23:18<36:59, 158.52s/it]2026-03-29 16:12:45,248 - src.logger - INFO - Saved 7 results to outputs/results_free_20.json
+Evaluating [free]:  35%|███▌      | 7/20 [25:09<30:56, 142.81s/it]2026-03-29 16:19:09,747 - src.logger - INFO - Saved 8 results to outputs/results_free_20.json
+Evaluating [free]:  40%|████      | 8/20 [31:33<43:57, 219.75s/it]2026-03-29 16:49:11,053 - src.logger - WARNING - Failed on record Single_NWS/2016/page_61.pdf-1: Request timed out.
+Evaluating [free]:  45%|████▌     | 9/20 [1:01:35<2:10:55, 714.17s/it]2026-03-29 16:51:25,518 - src.logger - INFO - Saved 9 results to outputs/results_free_20.json
+Evaluating [free]:  50%|█████     | 10/20 [1:03:49<1:29:12, 535.20s/it]2026-03-29 16:52:53,369 - src.logger - INFO - Saved 10 results to outputs/results_free_20.json
+Evaluating [free]:  55%|█████▌    | 11/20 [1:05:17<59:44, 398.29s/it]  2026-03-29 17:23:46,271 - src.logger - WARNING - Failed on record Single_APD/2019/page_31.pdf-2: Request timed out.
+Evaluating [free]:  60%|██████    | 12/20 [1:36:10<1:52:06, 840.80s/it]2026-03-29 17:24:47,238 - src.logger - INFO - Saved 11 results to outputs/results_free_20.json
+Evaluating [free]:  65%|██████▌   | 13/20 [1:37:11<1:10:31, 604.56s/it]2026-03-29 17:29:31,413 - src.logger - INFO - Saved 12 results to outputs/results_free_20.json
+Evaluating [free]:  70%|███████   | 14/20 [1:41:55<50:46, 507.79s/it]  2026-03-29 17:31:02,399 - src.logger - INFO - Saved 13 results to outputs/results_free_20.json
+Evaluating [free]:  75%|███████▌  | 15/20 [1:43:26<31:50, 382.15s/it]2026-03-29 17:32:43,329 - src.logger - INFO - Saved 14 results to outputs/results_free_20.json
+Evaluating [free]:  80%|████████  | 16/20 [1:45:07<19:50, 297.50s/it]2026-03-29 18:03:37,159 - src.logger - WARNING - Failed on record Double_RSG/2009/page_100.pdf: Request timed out.
+Evaluating [free]:  85%|████████▌ | 17/20 [2:16:01<38:16, 765.49s/it]2026-03-29 18:05:33,446 - src.logger - INFO - Saved 15 results to outputs/results_free_20.json
+Evaluating [free]:  90%|█████████ | 18/20 [2:17:57<19:00, 570.41s/it]2026-03-29 18:06:33,764 - src.logger - INFO - Saved 16 results to outputs/results_free_20.json
+Evaluating [free]:  95%|█████████▌| 19/20 [2:18:57<06:57, 417.21s/it]2026-03-29 18:10:38,540 - src.logger - INFO - Saved 17 results to outputs/results_free_20.json
+Evaluating [free]: 100%|██████████| 20/20 [2:23:02<00:00, 365.44s/it]Evaluating [free]: 100%|██████████| 20/20 [2:23:02<00:00, 429.13s/it]
+2026-03-29 18:10:38,540 - __main__ - INFO - FREE  exe_acc=78.33%  conv_acc=58.82%
+2026-03-29 18:10:38,541 - __main__ - INFO - Error propagation gap: 9.90%
+2026-03-29 18:10:38,541 - __main__ - INFO - Saved eval_summary.json
